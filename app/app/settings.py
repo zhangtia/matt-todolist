@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'l!msp$0f_1==8d+gsmzmfm^#j+(wy*(66b8w!=*=3(5#7pk06y'
+SECRET_KEY = '#############'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -89,10 +89,10 @@ if os.getenv('GAE_APPLICATION', None):
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'HOST': '/cloudsql/todolist-277420:us-east1:matttodo',
-            'USER': 'tungstenbbq',
-            'PASSWORD': 'lightmaster999',
-            'NAME': 'tododata',
+            'HOST': '######',
+            'USER': 't##############',
+            'PASSWORD': '###########',
+            'NAME': '#######',
         }
     }
 else:
@@ -105,9 +105,9 @@ else:
             'ENGINE': 'django.db.backends.mysql',
             'HOST': '127.0.0.1',
             'PORT': '3306',
-            'NAME': 'tododata',
-            'USER': 'tungstenbbq',
-            'PASSWORD': 'lightmaster999',
+            'NAME': '##########',
+            'USER': '#####',
+            'PASSWORD': '############',
         }
     }
 # [END db_setup]
