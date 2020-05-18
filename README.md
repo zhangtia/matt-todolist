@@ -4,9 +4,9 @@ Django backend of a simple todolist with Google Cloud Platform.
 
 https://todolist-277420.appspot.com/
 
-Used Django as a REST api for a React frontend.
-Data is stored in a MySQL database with Google Cloud Platform's Cloud SQL
-React frontend is client-side dynamic where new todos are instantly displayed and relevant database commands are sent.
+Used Django as a REST api for a React frontend.  
+Data is stored in a MySQL database with Google Cloud Platform's Cloud SQL.  
+React frontend is client-side dynamic where new todos are instantly displayed and relevant database commands are sent.  
 
 
 
