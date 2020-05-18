@@ -10,6 +10,6 @@ React frontend is client-side dynamic where new todos are instantly displayed an
 
 
 
-References :
+References :  
 https://medium.com/@BennettGarner/deploying-a-django-application-to-google-app-engine-f9c91a30bd35
 https://medium.com/@zackliutju/building-react-and-django-web-application-and-deploy-it-on-google-cloud-545f06eb5521
